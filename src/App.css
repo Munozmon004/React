@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;  
+}
+
+.navbar {
+  background-color: #fff;
+  padding: 0rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
+
+#icono-carrito {
+  position: fixed;
+  top: 40px;
+  right: 30px;
+  font-size: 4.5em;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+#contador-carrito {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  background: #000000;
+  color: #fff832;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 0.6em;
+}
+
+/* Estilos del logo */
+.logo {
+  height: 12rem;
+}
+
+h1{
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+/* Estilos del menú */
+.button {
+  display: flex;
+  gap: 3rem;
+}
+
+/* Estilos de los botones del menú */
+.boton {
+  background: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.boton a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* Hover en los botones */
+.boton:hover {
+  background-color: #c53131;
+  border-radius: 5px;
+}
+
+.read-the-docs {
+  color: #888;
+  text-align: center;
+}
+
+/* Products */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  padding: 2em;
+  text-align: center;
+}
+
+.card-body {
+  padding: 16px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+}
+
+.card-text {
+  font-size: 0.875rem;
+  margin-bottom: 12px;
+  color: #555;
+}
+
+.card-price {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #e91e63;
+  margin-bottom: 16px;
+}
+
+div {
+  margin: 0.25rem auto;
+}
+
+section {
+  padding: 0.1rem 0.25rem 2rem;
+  border-bottom: solid 2px rgb(149, 149, 149);
+}
