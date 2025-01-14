@@ -12,7 +12,7 @@ const products = [
         "title": "Freelander",
         "year": 2009,
         "price": "6219.78",
-        "img": "https://windshieldstore.in/wp-content/uploads/2022/06/freelander.jpg",
+        "img": "http://dummyimage.com/244x100.png/ff4444/ffffff",
         "stock": 2
     },
     {
@@ -20,7 +20,7 @@ const products = [
         "title": "GTI",
         "year": 2005,
         "price": "5198.98",
-        "img": "https://www.motortrend.com/uploads/sites/10/2015/11/2005-volkswagen-jetta-2.5-l-pzev-sedan-angular-front.png",
+        "img": "http://dummyimage.com/244x100.png/ff4444/ffffff",
         "stock": 3
     },
     {
